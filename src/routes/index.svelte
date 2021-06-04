@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import CovidStat from '../components/CovidStat.svelte';
+	import CovidChart from '../components/CovidChart.svelte';
+	import TableContainer from '../components/TableContainer.svelte';
+</script>
+
+<CovidChart />
+<CovidStat />
+<TableContainer />
